@@ -6,6 +6,10 @@ export default defineNuxtConfig({
       fs:{
         driver:'fsLite',
         base:'./images'
+      },
+      fs2:{
+        driver:'fsLite',
+        base:'./public'
       }
     }
   }
